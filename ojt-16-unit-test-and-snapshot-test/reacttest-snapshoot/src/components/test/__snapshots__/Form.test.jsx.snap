@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component renders form with name and email inputs 1`] = `
+<div>
+  <div
+    class="Navbar"
+    data-testid="navbar"
+  >
+    <h2
+      class="sc-hLQSwg etDQsz"
+    >
+      Contact Form
+    </h2>
+    <form
+      class="sc-beySPh foRdIa"
+    >
+      <input
+        aria-label="Name:"
+        class="sc-guDLey imaPpo"
+        name="name"
+        placeholder="Enter Name"
+        type="text"
+        value=""
+      />
+      <input
+        aria-label="Email:"
+        class="sc-guDLey imaPpo"
+        name="email"
+        placeholder="Enter Email"
+        type="email"
+        value=""
+      />
+      <input
+        aria-label="Password:"
+        class="sc-guDLey imaPpo"
+        name="password"
+        placeholder="Enter Password"
+        type="password"
+        value=""
+      />
+      <p>
+        *Please Input Google mails for the Email
+      </p>
+      <p>
+        *Passowrd atleast have 1 Capital Letter
+      </p>
+      <p>
+        Test testing111
+      </p>
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <div
+      class="sc-dmyCSP kOYcjl"
+    >
+      <h2>
+        Form Data:
+      </h2>
+      <p>
+        Name: , Email: , Password: 
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Form Component submits form with correct values 1`] = `
+<div>
+  <div
+    class="Navbar"
+    data-testid="navbar"
+  >
+    <h2
+      class="sc-hLQSwg etDQsz"
+    >
+      Contact Form
+    </h2>
+    <form
+      class="sc-beySPh foRdIa"
+    >
+      <input
+        aria-label="Name:"
+        class="sc-guDLey imaPpo"
+        name="name"
+        placeholder="Enter Name"
+        type="text"
+        value="Selamet Saputra"
+      />
+      <input
+        aria-label="Email:"
+        class="sc-guDLey imaPpo"
+        name="email"
+        placeholder="Enter Email"
+        type="email"
+        value="selametsaputra123@gmail.com"
+      />
+      <input
+        aria-label="Password:"
+        class="sc-guDLey imaPpo"
+        name="password"
+        placeholder="Enter Password"
+        type="password"
+        value="Password12345"
+      />
+      <p>
+        *Please Input Google mails for the Email
+      </p>
+      <p>
+        *Passowrd atleast have 1 Capital Letter
+      </p>
+      <p>
+        Test testing111
+      </p>
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <div
+      class="sc-dmyCSP kOYcjl"
+    >
+      <h2>
+        Form Data:
+      </h2>
+      <p>
+        Name: Selamet Saputra, Email: selametsaputra123@gmail.com, Password: Password12345
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Import Font dari Googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Worklist</header>
+      <form action="#">
+        <div class="form first">
+          <div class="details worklist">
+            <!-- <span class="title"> Worklist</span> -->
+            <div class="fields">
+              <!-- Input Form Bagian Pertama-->
+              <div class="input-fields">
+                <label>Nama</label>
+                <input type="text" placeholder="Nama" required />
+              </div>
+              <div class="input-fields">
+                <label>Email</label>
+                <input type="text" placeholder="Email" required />
+              </div>
+              <div class="input-fields">
+                <label>Order ID</label>
+                <input type="text" placeholder="Order ID" required />
+              </div>
+
+              <!-- Input Form Bagian  Kedua-->
+
+              <div class="input-fields">
+                <label>Start Date</label>
+                <input type="date" placeholder="01/01/2023" required />
+              </div>
+              <div class="input-fields">
+                <label>End Date</label>
+                <input type="date" placeholder="31/01/2023" required />
+              </div>
+              <div class="input-fields">
+                <label>Status</label>
+                <input type="text" placeholder="Status" required />
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="clrBtn">
+                <span class="btnTxt2">Clear Search</span>
+              </button>
+              <button class="srchBtn">
+                <span class="btnTxt1">Search</span>
+              </button>
+            </div>
+            <!-- Menampilkan Dropdown Berupa Nomor -->
+            <div class="option">
+              <label
+                >Tampilkan <input list="browsers" name="myBrowser"
+              /></label>
+              <datalist id="browsers">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+              </datalist>
+
+              <button class="crtBtn-tab">
+                <span class="btnTxt1">Create New</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- Baris Kode Table -->
+      <div class="table-data">
+        <table>
+          <tr>
+            <th class="number">No.</th>
+            <th>Order ID</th>
+            <th>Nama</th>
+            <th>NIK</th>
+            <th>Email</th>
+            <th>Tanggal Transaksi</th>
+            <th>Step</th>
+            <th>Status</th>
+            <th>Aksi</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>985092426</td>
+            <td>John Doe</td>
+            <td>********0001</td>
+            <td>jhondoe@gmail.com</td>
+            <td>16-12-2023 14:45:35</td>
+            <td>1. Geotagging</td>
+            <td>Draft</td>
+            <td>
+              <button><i class="fas fa-edit"></i></button>
+              <button><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>985092426</td>
+            <td>John Doe</td>
+            <td>********0001</td>
+            <td>jhondoe@gmail.com</td>
+            <td>16-12-2023 14:45:35</td>
+            <td>1. Geotagging</td>
+            <td>Draft</td>
+            <td>
+              <button><i class="fas fa-edit"></i></button>
+              <button><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>985092426</td>
+            <td>John Doe</td>
+            <td>********0001</td>
+            <td>jhondoe@gmail.com</td>
+            <td>16-12-2023 14:45:35</td>
+            <td>1. Geotagging</td>
+            <td>Draft</td>
+            <td>
+              <button><i class="fas fa-edit"></i></button>
+              <button><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>985092426</td>
+            <td>John Doe</td>
+            <td>********0001</td>
+            <td>jhondoe@gmail.com</td>
+            <td>16-12-2023 14:45:35</td>
+            <td>1. Geotagging</td>
+            <td>Draft</td>
+            <td>
+              <button><i class="fas fa-edit"></i></button>
+              <button><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>985092426</td>
+            <td>John Doe</td>
+            <td>********0001</td>
+            <td>jhondoe@gmail.com</td>
+            <td>16-12-2023 14:45:35</td>
+            <td>1. Geotagging</td>
+            <td>Draft</td>
+            <td>
+              <button><i class="fas fa-edit"></i></button>
+              <button><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <ul class="pagination">
+        <li><a href="#" class="current">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+      </ul>
+
+      <div class="pagination-info">
+        Page <span class="current-page"> 1</span> of
+        <span class="total-pages"> 3</span>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

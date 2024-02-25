@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.input {
+  padding: 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Calculator</h2>
+      <form action="/calculate" method="post">
+        <label for="n1">Angka 1:</label>
+        <input type="text" name="n1" id="n1" required />
+
+        <label for="n2">Angka 2:</label>
+        <input type="text" name="n2" id="n2" required />
+
+        <label for="selectCalculation">Pilih Kalkulasi:</label>
+        <select name="operator" id="operator">
+          <option value="add">Penjumlahan</option>
+          <option value="subtract">Pengurangan</option>
+          <option value="multiply">Perkalian</option>
+          <option value="divide">Pembagian</option>
+        </select>
+        <button type="submit">Hitung</button>
+      </form>
+    </div>
+  </body>
+</html>

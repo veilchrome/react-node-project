@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders navbar with correct links 1`] = `
+<div>
+  <div
+    class="Navbar"
+    data-testid="navbar"
+  >
+    <nav
+      class="sc-beySPh cReCLt"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            class="sc-guDLey clbyy active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-guDLey clbyy"
+            href="/registration"
+          >
+            Registration
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-guDLey clbyy"
+            href="/anilist"
+          >
+            Anilist
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

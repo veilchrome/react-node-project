@@ -1,0 +1,7 @@
+1. Jelaskan fungsi command create-react-app!
+Jawab :
+Jadi Fungsi CRA atau Create React App adalah untuk membuat Project menggunakan Framework Javascript yakni React.
+
+2. Jelaskan fungsi JSX di dalam React!
+3. Jelaskan perbedaan Props dan State!
+4. Jelaskan jenis dan urutan lifecycle method dalam React!

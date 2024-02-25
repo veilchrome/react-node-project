@@ -1,0 +1,36 @@
+.table-data {
+  color: #1a1a1a;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  text-align: center;
+  padding: 8px;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+.number {
+  width: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+button {
+  background-color: #92040b;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border: #000;
+  border-radius: 5px;
+}
